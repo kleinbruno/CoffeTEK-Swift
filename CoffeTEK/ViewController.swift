@@ -10,11 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    private let loginSegue = "show-login"
+    
+    @IBAction func touchLogIn(_ sender: Any) {
+        self.performSegue(withIdentifier: loginSegue, sender: nil)
     }
-
 
 }
 

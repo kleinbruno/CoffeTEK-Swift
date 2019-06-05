@@ -12,6 +12,8 @@
 		4AD628B122A71D0300CF40A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AD628AF22A71D0300CF40A3 /* Main.storyboard */; };
 		4AD628B322A71D0500CF40A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AD628B222A71D0500CF40A3 /* Assets.xcassets */; };
 		4AD628B622A71D0500CF40A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AD628B422A71D0500CF40A3 /* LaunchScreen.storyboard */; };
+		4AD628BE22A7302300CF40A3 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD628BD22A7302300CF40A3 /* UIViewExtensions.swift */; };
+		4AD628C022A730F800CF40A3 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD628BF22A730F800CF40A3 /* DesignableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		4AD628B222A71D0500CF40A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AD628B522A71D0500CF40A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AD628B722A71D0500CF40A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AD628BD22A7302300CF40A3 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		4AD628BF22A730F800CF40A3 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				4AD628B222A71D0500CF40A3 /* Assets.xcassets */,
 				4AD628B422A71D0500CF40A3 /* LaunchScreen.storyboard */,
 				4AD628B722A71D0500CF40A3 /* Info.plist */,
+				4AD628BD22A7302300CF40A3 /* UIViewExtensions.swift */,
+				4AD628BF22A730F800CF40A3 /* DesignableView.swift */,
 			);
 			path = CoffeTEK;
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AD628C022A730F800CF40A3 /* DesignableView.swift in Sources */,
 				4AD628AE22A71D0300CF40A3 /* ViewController.swift in Sources */,
+				4AD628BE22A7302300CF40A3 /* UIViewExtensions.swift in Sources */,
 				4AD628AC22A71D0300CF40A3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
