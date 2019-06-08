@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AA2C54622A8B6B9008782E5 /* LogInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA2C54522A8B6B9008782E5 /* LogInController.swift */; };
 		4AD628AC22A71D0300CF40A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD628AB22A71D0300CF40A3 /* AppDelegate.swift */; };
 		4AD628AE22A71D0300CF40A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD628AD22A71D0300CF40A3 /* ViewController.swift */; };
 		4AD628B122A71D0300CF40A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AD628AF22A71D0300CF40A3 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4AA2C54522A8B6B9008782E5 /* LogInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInController.swift; sourceTree = "<group>"; };
 		4AD628A822A71D0300CF40A3 /* CoffeTEK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeTEK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AD628AB22A71D0300CF40A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AD628AD22A71D0300CF40A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				4AD628B722A71D0500CF40A3 /* Info.plist */,
 				4AD628BD22A7302300CF40A3 /* UIViewExtensions.swift */,
 				4AD628BF22A730F800CF40A3 /* DesignableView.swift */,
+				4AA2C54522A8B6B9008782E5 /* LogInController.swift */,
 			);
 			path = CoffeTEK;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			files = (
 				4AD628C022A730F800CF40A3 /* DesignableView.swift in Sources */,
 				4AD628AE22A71D0300CF40A3 /* ViewController.swift in Sources */,
+				4AA2C54622A8B6B9008782E5 /* LogInController.swift in Sources */,
 				4AD628BE22A7302300CF40A3 /* UIViewExtensions.swift in Sources */,
 				4AD628AC22A71D0300CF40A3 /* AppDelegate.swift in Sources */,
 			);
